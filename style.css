@@ -1,0 +1,66 @@
+/*Fuentes*/
+
+/*variables*/
+
+
+:root{
+  --bg-body : #8ccad7;
+  --primary-color: #2b4abe;
+  --fontSize-title: 40px;
+  --fontSize-parrafos : 20px;
+}
+
+body{
+  background: #97e0a4;
+}
+
+nav.bg-deportes{
+  background: var(--bg-body);
+}
+
+nav .navbar-brand img{
+  width: 50px;
+}
+
+nav.bg-deportes ul li a{
+  color: white;
+  position: relative;
+  font-size: 20px;
+}
+
+nav.bg-deportes ul li a::after{
+  width: 0;
+  height: 2px;
+  background: transparent;
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  transition: .4s; 
+  font-size: 20px;
+}
+
+nav.bg-deportes ul li a:hover{
+  color: var(--primary-color);
+}
+
+
+nav.bg-deportes ul li a:hover::after{
+  background: var(--primary-color);
+  width: 40%;
+}
+
+
+.d-item{
+  width: 50px; 
+}
+
+.d-item img{
+  height: 300px;
+  text-align: center;
+  
+}
+
+
+
+
